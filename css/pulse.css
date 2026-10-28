@@ -1,0 +1,17 @@
+/* Pulse */
+.pulse-section { padding-block: 96px 91px; }
+.pulse-header { display: flex; align-items: end; justify-content: space-between; padding-bottom: 24px; border-bottom: 1px solid var(--line); }
+.pulse-header .eyebrow { display: block; margin-bottom: 13px; color: var(--muted); }
+.pulse-header h2 { font-size: 38px; }
+.pulse-date { display: flex; align-items: center; gap: 9px; font-size: 8px; color: var(--muted); }
+.pulse-date i { width: 6px; height: 6px; background: #718866; border-radius: 50%; }
+.pulse-grid { display: grid; grid-template-columns: repeat(4, 1fr); }
+.pulse-item { min-height: 157px; padding: 18px 17px 17px 0; display: flex; flex-direction: column; border-bottom: 1px solid var(--line); border-right: 1px solid var(--line); transition: background .2s; }
+.pulse-item:not(:first-child) { padding-left: 17px; }
+.pulse-item:last-child { border-right: 0; }
+.pulse-item:hover { background: var(--card); }
+.pulse-label { color: var(--muted); font-size: 7px; }
+.pulse-item strong { font-size: clamp(19px, 2vw, 26px); line-height: 1.04; font-weight: 500; letter-spacing: -.04em; margin-top: 25px; }
+.pulse-link { color: var(--muted); font-size: 7px; margin-top: auto; padding-top: 14px; }
+.pulse-item:hover .pulse-link { color: var(--accent); }
+.pulse-caption { font-size: 7px; color: var(--muted); margin: 12px 0 0; }

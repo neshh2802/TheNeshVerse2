@@ -1,0 +1,64 @@
+# Canonical, extension-free public routes. The matching rewrites serve the
+# existing static HTML files, so no client-side router or build step is needed.
+/index.html / 301
+/studio.html /studio 301
+/studio/mindframe /studio-mindframe.html 200
+/studio/hireframe /studio-hireframe.html 200
+/studio/framebound /studio-framebound.html 200
+/studio/techfest-2026 /studio-techfest-2026.html 200
+/studio/aurix-xh1 /studio-aurix-xh1.html 200
+/studio/reviewflow-ai /studio-reviewflow-ai.html 200
+/products.html /products 301
+/products/mindframe /products-mindframe.html 200
+/products/hireframe /products-hireframe.html 200
+/labs.html /labs 301
+/labs/reviewflow-ai /labs-reviewflow-ai.html 200
+/labs/interface-plays /labs-interface-plays.html 200
+/labs/craft-automation /labs-craft-automation.html 200
+/labs/systems-memo /labs-systems-memo.html 200
+/journal.html /journal 301
+/journal/learning-by-making /journal-learning-by-making.html 200
+/journal/choosing-clarity /journal-choosing-clarity.html 200
+/publishing.html /publishing 301
+/publishing/ai-mastery-journey /publishing-ai-mastery-journey.html 200
+/publishing/ai-mastery-journey/vol-1 /publishing-vol-1.html 200
+/publishing/ai-mastery-journey/vol-2 /publishing-vol-2.html 200
+/publishing/ai-mastery-journey/vol-3 /publishing-vol-3.html 200
+/publishing/ai-mastery-journey/vol-4 /publishing-vol-4.html 200
+/about.html /about 301
+/contact.html /contact 301
+/now.html /now 301
+/future.html /future 301
+
+/studio-mindframe.html /studio/mindframe 301
+/studio-hireframe.html /studio/hireframe 301
+/studio-framebound.html /studio/framebound 301
+/studio-techfest-2026.html /studio/techfest-2026 301
+/studio-aurix-xh1.html /studio/aurix-xh1 301
+/studio-reviewflow-ai.html /studio/reviewflow-ai 301
+/products-mindframe.html /products/mindframe 301
+/products-hireframe.html /products/hireframe 301
+/labs-reviewflow-ai.html /labs/reviewflow-ai 301
+/labs-interface-plays.html /labs/interface-plays 301
+/labs-craft-automation.html /labs/craft-automation 301
+/labs-systems-memo.html /labs/systems-memo 301
+/journal-learning-by-making.html /journal/learning-by-making 301
+/journal-choosing-clarity.html /journal/choosing-clarity 301
+/publishing-ai-mastery-journey.html /publishing/ai-mastery-journey 301
+/publishing-vol-1.html /publishing/ai-mastery-journey/vol-1 301
+/publishing-vol-2.html /publishing/ai-mastery-journey/vol-2 301
+/publishing-vol-3.html /publishing/ai-mastery-journey/vol-3 301
+/publishing-vol-4.html /publishing/ai-mastery-journey/vol-4 301
+
+/studio /studio.html 200
+/products /products.html 200
+/labs /labs.html 200
+/journal /journal.html 200
+/publishing /publishing.html 200
+/about /about.html 200
+/contact /contact.html 200
+/now /now.html 200
+/future /future.html 200
+
+# Netlify serves this page for unmatched paths.
+/* /404.html 404

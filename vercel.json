@@ -1,0 +1,293 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)\\.(js|css)$",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/studio/mindframe",
+      "destination": "/studio-mindframe.html"
+    },
+    {
+      "source": "/studio/hireframe",
+      "destination": "/studio-hireframe.html"
+    },
+    {
+      "source": "/studio/framebound",
+      "destination": "/studio-framebound.html"
+    },
+    {
+      "source": "/studio/techfest-2026",
+      "destination": "/studio-techfest-2026.html"
+    },
+    {
+      "source": "/studio/aurix-xh1",
+      "destination": "/studio-aurix-xh1.html"
+    },
+    {
+      "source": "/studio/reviewflow-ai",
+      "destination": "/studio-reviewflow-ai.html"
+    },
+    {
+      "source": "/products/mindframe",
+      "destination": "/products-mindframe.html"
+    },
+    {
+      "source": "/products/hireframe",
+      "destination": "/products-hireframe.html"
+    },
+    {
+      "source": "/labs/reviewflow-ai",
+      "destination": "/labs-reviewflow-ai.html"
+    },
+    {
+      "source": "/labs/interface-plays",
+      "destination": "/labs-interface-plays.html"
+    },
+    {
+      "source": "/labs/craft-automation",
+      "destination": "/labs-craft-automation.html"
+    },
+    {
+      "source": "/labs/systems-memo",
+      "destination": "/labs-systems-memo.html"
+    },
+    {
+      "source": "/journal/learning-by-making",
+      "destination": "/journal-learning-by-making.html"
+    },
+    {
+      "source": "/journal/choosing-clarity",
+      "destination": "/journal-choosing-clarity.html"
+    },
+    {
+      "source": "/publishing/ai-mastery-journey",
+      "destination": "/publishing-ai-mastery-journey.html"
+    },
+    {
+      "source": "/publishing/ai-mastery-journey/vol-1",
+      "destination": "/publishing-vol-1.html"
+    },
+    {
+      "source": "/publishing/ai-mastery-journey/vol-2",
+      "destination": "/publishing-vol-2.html"
+    },
+    {
+      "source": "/publishing/ai-mastery-journey/vol-3",
+      "destination": "/publishing-vol-3.html"
+    },
+    {
+      "source": "/publishing/ai-mastery-journey/vol-4",
+      "destination": "/publishing-vol-4.html"
+    },
+    {
+      "source": "/studio",
+      "destination": "/studio.html"
+    },
+    {
+      "source": "/products",
+      "destination": "/products.html"
+    },
+    {
+      "source": "/labs",
+      "destination": "/labs.html"
+    },
+    {
+      "source": "/journal",
+      "destination": "/journal.html"
+    },
+    {
+      "source": "/publishing",
+      "destination": "/publishing.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/about.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact.html"
+    },
+    {
+      "source": "/now",
+      "destination": "/now.html"
+    },
+    {
+      "source": "/future",
+      "destination": "/future.html"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/studio.html",
+      "destination": "/studio",
+      "permanent": true
+    },
+    {
+      "source": "/products.html",
+      "destination": "/products",
+      "permanent": true
+    },
+    {
+      "source": "/labs.html",
+      "destination": "/labs",
+      "permanent": true
+    },
+    {
+      "source": "/journal.html",
+      "destination": "/journal",
+      "permanent": true
+    },
+    {
+      "source": "/publishing.html",
+      "destination": "/publishing",
+      "permanent": true
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/now.html",
+      "destination": "/now",
+      "permanent": true
+    },
+    {
+      "source": "/future.html",
+      "destination": "/future",
+      "permanent": true
+    },
+    {
+      "source": "/studio-mindframe.html",
+      "destination": "/studio/mindframe",
+      "permanent": true
+    },
+    {
+      "source": "/studio-hireframe.html",
+      "destination": "/studio/hireframe",
+      "permanent": true
+    },
+    {
+      "source": "/studio-framebound.html",
+      "destination": "/studio/framebound",
+      "permanent": true
+    },
+    {
+      "source": "/studio-techfest-2026.html",
+      "destination": "/studio/techfest-2026",
+      "permanent": true
+    },
+    {
+      "source": "/studio-aurix-xh1.html",
+      "destination": "/studio/aurix-xh1",
+      "permanent": true
+    },
+    {
+      "source": "/studio-reviewflow-ai.html",
+      "destination": "/studio/reviewflow-ai",
+      "permanent": true
+    },
+    {
+      "source": "/products-mindframe.html",
+      "destination": "/products/mindframe",
+      "permanent": true
+    },
+    {
+      "source": "/products-hireframe.html",
+      "destination": "/products/hireframe",
+      "permanent": true
+    },
+    {
+      "source": "/labs-reviewflow-ai.html",
+      "destination": "/labs/reviewflow-ai",
+      "permanent": true
+    },
+    {
+      "source": "/labs-interface-plays.html",
+      "destination": "/labs/interface-plays",
+      "permanent": true
+    },
+    {
+      "source": "/labs-craft-automation.html",
+      "destination": "/labs/craft-automation",
+      "permanent": true
+    },
+    {
+      "source": "/labs-systems-memo.html",
+      "destination": "/labs/systems-memo",
+      "permanent": true
+    },
+    {
+      "source": "/journal-learning-by-making.html",
+      "destination": "/journal/learning-by-making",
+      "permanent": true
+    },
+    {
+      "source": "/journal-choosing-clarity.html",
+      "destination": "/journal/choosing-clarity",
+      "permanent": true
+    },
+    {
+      "source": "/publishing-ai-mastery-journey.html",
+      "destination": "/publishing/ai-mastery-journey",
+      "permanent": true
+    },
+    {
+      "source": "/publishing-vol-1.html",
+      "destination": "/publishing/ai-mastery-journey/vol-1",
+      "permanent": true
+    },
+    {
+      "source": "/publishing-vol-2.html",
+      "destination": "/publishing/ai-mastery-journey/vol-2",
+      "permanent": true
+    },
+    {
+      "source": "/publishing-vol-3.html",
+      "destination": "/publishing/ai-mastery-journey/vol-3",
+      "permanent": true
+    },
+    {
+      "source": "/publishing-vol-4.html",
+      "destination": "/publishing/ai-mastery-journey/vol-4",
+      "permanent": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+/* Student / Now */
+.student-section { display: grid; grid-template-columns: .86fr 1.14fr; gap: clamp(35px, 8vw, 114px); align-items: start; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding-block: 93px; }
+.student-index { display: flex; min-height: 367px; flex-direction: column; justify-content: space-between; }
+.student-index .eyebrow { color: var(--muted); }
+.student-big { font-size: clamp(49px, 8.3vw, 105px); line-height: .78; font-weight: 650; letter-spacing: -.09em; margin-left: -5px; }
+.student-big span { color: var(--accent); }
+.student-foot { color: var(--muted); font-size: 8px; line-height: 1.8; }
+.student-copy .overline { margin: 0 0 17px; }
+.student-copy h2 { font-size: clamp(37px, 4.5vw, 54px); }
+.student-intro { max-width: 460px; color: var(--muted); font-size: 13px; line-height: 1.7; margin: 22px 0 30px; }
+.learning-list { border-top: 1px solid var(--line); margin-bottom: 26px; }
+.learning-list>div { display: grid; grid-template-columns: 38px 1fr 18px; gap: 12px; align-items: start; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.learning-list>div>span:first-child { color: var(--accent); font-size: 8px; padding-top: 3px; }
+.learning-list p { margin: 0; }
+.learning-list p b { font-size: 12px; font-weight: 550; display: block; }
+.learning-list small { display: block; text-transform: none; letter-spacing: 0; color: var(--muted); font: 10px/1.55 var(--sans); margin-top: 4px; }
+.learning-arrow { font-size: 14px; color: var(--muted); }

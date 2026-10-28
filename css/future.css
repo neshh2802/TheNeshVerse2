@@ -1,0 +1,16 @@
+/* Future Watch */
+.future-section { background: #e9e8e1; width: 100%; padding-inline: max(48px, calc((100% - 1200px) / 2)); }
+:root[data-theme="dark"] .future-section { background: #20211d; }
+.future-intro { display: flex; align-items: center; gap: 9px; font-size: 8px; color: var(--muted); margin: -9px 0 17px; }
+.future-intro i { color: var(--accent); font-style: normal; }
+.watch-pulse { width: 6px; height: 6px; background: #718866; border-radius: 50%; box-shadow: 0 0 0 3px color-mix(in srgb, #718866 18%, transparent); }
+.future-row { display: grid; grid-template-columns: 42px minmax(155px, .9fr) 1.5fr 126px; gap: 18px; align-items: center; padding: 17px 9px; border-top: 1px solid var(--line-strong); }
+.future-row:last-child { border-bottom: 1px solid var(--line-strong); }
+.future-number { font-size: 8px; color: var(--accent); }
+.future-row h3 { font-size: 14px; font-weight: 500; letter-spacing: -.02em; margin: 0; }
+.future-row>p { font-size: 10px; color: var(--muted); line-height: 1.5; margin: 0; }
+.future-status { justify-self: end; display: flex; align-items: center; gap: 7px; border: 1px solid var(--line-strong); padding: 7px 9px; font-size: 7px; white-space: nowrap; color: var(--muted); }
+.future-status i { width: 5px; height: 5px; border-radius: 50%; background: #c69c56; }
+.status-growing i { background: #718866; }
+.status-watch-closely i { background: var(--accent); }
+.future-disclaimer { color: var(--muted); font-size: 7px; line-height: 1.8; max-width: 720px; margin-top: 19px; }

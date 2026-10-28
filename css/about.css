@@ -1,0 +1,26 @@
+/* About */
+.about-section { border-top: 1px solid var(--line); }
+.about-layout { display: grid; grid-template-columns: .8fr 1.2fr; gap: clamp(45px, 9vw, 120px); padding: 49px 0 12px; }
+.about-portrait { position: relative; align-self: start; min-height: 340px; margin: 0; overflow: hidden; background: var(--paper-dark); }
+.about-portrait img { display: block; width: 100%; height: 410px; object-fit: cover; object-position: center 35%; filter: saturate(.78); }
+.about-portrait figcaption { display: flex; justify-content: space-between; gap: 10px; padding: 11px 0; color: var(--muted); font: 7px var(--mono); letter-spacing: .08em; }
+.about-copy .overline { margin: 0 0 16px; }
+.about-copy h2 { font-size: clamp(40px, 5vw, 58px); }
+.about-lead { font: 400 23px/1.17 var(--serif); margin: 23px 0 15px !important; color: var(--ink) !important; }
+.about-copy>p:not(.overline) { max-width: 490px; font-size: 12px; line-height: 1.75; color: var(--muted); }
+.about-story { max-width: 610px; }
+.about-story h2 { font-size: clamp(45px, 5vw, 68px); letter-spacing: -.08em; margin: 0 0 18px; }
+.about-story h2 em { font-style: italic; font-family: var(--serif); }
+.about-story .about-lead { font-size: clamp(24px, 2.2vw, 30px); line-height: 1.2; max-width: 580px; }
+.about-story p:not(.about-lead, .overline) { font-size: 13px; line-height: 1.8; color: var(--muted); max-width: 540px; }
+.about-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; max-width: 560px; margin: 28px 0 18px; }
+.about-panel { background: var(--card); border: 1px solid var(--line); padding: 18px 18px 12px; }
+.about-panel span { display: block; font: 700 8px var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+.about-panel ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.about-panel li { position: relative; padding-left: 15px; font-size: 12px; line-height: 1.6; color: var(--muted); }
+.about-panel li::before { content: "•"; position: absolute; left: 0; color: var(--accent); }
+.about-interests { display: flex; flex-wrap: wrap; gap: 7px; margin: 20px 0; }
+.about-interests span { border: 1px solid var(--line); padding: 7px 8px; font-size: 6px; color: var(--muted); }
+.about-links { display: flex; gap: 21px; border-top: 1px solid var(--line); padding-top: 15px; font-size: 10px; }
+.about-links a:hover { color: var(--accent); }
+.about-start-building { margin-top: 28px; }

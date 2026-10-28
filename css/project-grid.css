@@ -1,0 +1,37 @@
+/* Build Lab */
+.build-section { background: var(--paper-dark); width: 100%; padding-inline: max(48px, calc((100% - 1200px) / 2)); }
+.filter-row { display: flex; gap: 8px; margin: -5px 0 22px; flex-wrap: wrap; }
+.filter-chip { background: transparent; border: 1px solid var(--line-strong); padding: 8px 11px; font-size: 8px; color: var(--muted); cursor: pointer; }
+.filter-chip.is-active, .filter-chip:hover { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.filter-chip span { color: var(--accent); padding-left: 8px; }
+.project-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 15px; }
+.project-card { min-width: 0; }
+.project-open, .publication-open { width: 100%; height: 100%; text-align: left; border: 0; padding: 0; background: var(--paper); cursor: pointer; }
+.project-open { display: flex; flex-direction: column; }
+.project-open:hover .project-art>img, .publication-open:hover .book-cover>img { transform: scale(1.035); }
+.project-art { position: relative; overflow: hidden; aspect-ratio: .8; display: block; background: var(--paper-dark); }
+.project-art>img { position: absolute; inset: 0; width: 100%; height: 100%; display: block; object-fit: cover; transition: transform .35s ease; }
+.image-category { position: absolute; top: 12px; left: 12px; padding: 7px 9px; background: #171814c9; color: #f4f3ef; font: 7px var(--mono); letter-spacing: .08em; text-transform: uppercase; }
+.project-card-copy { display: flex; flex-direction: column; padding: 16px 15px 15px; min-height: 174px; }
+.project-card-meta { font-size: 7px; color: var(--muted); }
+.project-card-meta i { color: var(--accent); font-style: normal; padding-inline: 4px; }
+.project-card-copy>strong { font-size: 17px; font-weight: 550; letter-spacing: -.03em; margin-top: 10px; }
+.project-summary { margin-top: 6px; color: var(--muted); font-size: 10px; line-height: 1.55; }
+.project-card-foot { margin-top: auto; display: flex; gap: 5px; align-items: center; padding-top: 13px; }
+.project-card-foot i { border: 1px solid var(--line); padding: 5px 6px; font-style: normal; color: var(--muted); font-size: 6px; }
+.project-card-foot b { color: var(--accent); margin-left: auto; font: 15px var(--sans); }
+.empty-filter { color: var(--muted); grid-column: 1/-1; padding: 40px; border: 1px dashed var(--line-strong); font-size: 12px; }
+.lab-footnote { display: grid; grid-template-columns: 1fr 2fr; border-top: 1px solid var(--line); margin-top: 29px; padding-top: 15px; align-items: start; }
+.lab-footnote>span { color: var(--muted); font-size: 8px; }
+.lab-footnote p { margin: 0; color: var(--muted); font-size: 10px; }
+/* Static HTML revamp: project cards are real links, not JS buttons. */
+.project-open { display: flex; flex-direction: column; text-decoration: none; color: inherit; }
+
+/* Poster covers: keep the complete artwork visible and give the three
+   requested cards a shared 4:5 frame instead of relying on generic cropping. */
+.project-card-techfest-2026 .project-art,
+.project-card-aurix-xh1 .project-art,
+.project-card-reviewflow .project-art { aspect-ratio: 4 / 5; }
+.project-card-techfest-2026 .project-art > img,
+.project-card-aurix-xh1 .project-art > img,
+.project-card-reviewflow .project-art > img { object-fit: contain; object-position: center; background: var(--paper-dark); }

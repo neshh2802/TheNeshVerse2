@@ -1,0 +1,49 @@
+# The Neshverse — llms.txt
+# https://theneshverse.vercel.app
+
+## About
+
+The Neshverse is Neshakar Murali's personal digital ecosystem for technology, AI, digital products, design, publishing and creative systems. It is an independent platform built in public — not a portfolio, but a living record of ideas being made real.
+
+Creator: Neshakar Murali
+Location: Malaysia (2° 11' N · 102° 15' E)
+Established: 2026
+
+## Sections
+
+- **Studio** — Completed creative and product work: MindFrame, HireFrame, FRAMEBOUND, TECHFEST 2026, AURIX XH1, ReviewFlow AI.
+- **Products** — Product direction and tools in motion: MindFrame (personal digital workspace for students), HireFrame (AI-powered ATS optimisation tool).
+- **Labs** — Experiments, prototypes and unfinished ideas: ReviewFlow AI, Interface Plays, Craft Automation, Systems Memo.
+- **Journal** — Notes, frameworks and thinking in progress.
+- **Publishing** — The AI Mastery Journey: a four-volume series on working with AI clearly and intentionally.
+- **About** — Neshakar Murali, founder and creator.
+- **Now** — A living snapshot of current work.
+- **Future** — What Neshakar is watching in AI, technology and creative systems.
+
+## Key Projects
+
+### MindFrame
+A custom digital workspace built around the way students think, plan and build. In progress. Category: Digital Product / AI workflows / Systems thinking.
+
+### HireFrame
+An AI-powered resume and positioning product designed to make early-career job applications more coherent and ATS-aware. Category: AI product / Resume strategy / UX.
+
+### FRAMEBOUND
+A photobook identity and visual system for preserving memories. Category: Creative direction / Typography / Visual identity.
+
+### TECHFEST 2026
+Event visual identity for TECHFEST 2026 — energetic, clear, memorable. Category: Graphic design / Event creative.
+
+### AURIX XH1
+Advertising-led product visual giving a wireless headphone hardware a deliberate presence. Category: Product visual / Graphic design.
+
+### ReviewFlow AI
+Prototype exploring how AI can support clearer thinking, review loops and structured decision-making. Category: AI / Web / Automation.
+
+### The AI Mastery Journey
+Four-volume series: Vol. I The Essentials, Vol. II The Power Toolkit, Vol. III The Workflow Engine, Vol. IV The Master Vault. Topics: AI prompting, workflows, applications, advanced problem-solving.
+
+## Contact
+
+GitHub: https://github.com/neshh2802
+Website: https://theneshverse.vercel.app
