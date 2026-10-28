@@ -1,147 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://theneshverse.com/</loc>
+    <loc>https://theneshverse.vercel.app/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/studio</loc>
+    <loc>https://theneshverse.vercel.app/studio</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/studio/mindframe</loc>
+    <loc>https://theneshverse.vercel.app/studio/mindframe</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/studio/hireframe</loc>
+    <loc>https://theneshverse.vercel.app/studio/hireframe</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/studio/framebound</loc>
+    <loc>https://theneshverse.vercel.app/studio/framebound</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/studio/techfest-2026</loc>
+    <loc>https://theneshverse.vercel.app/studio/techfest-2026</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/studio/aurix-xh1</loc>
+    <loc>https://theneshverse.vercel.app/studio/aurix-xh1</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/studio/reviewflow-ai</loc>
+    <loc>https://theneshverse.vercel.app/studio/reviewflow-ai</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/products</loc>
+    <loc>https://theneshverse.vercel.app/products</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/products/mindframe</loc>
+    <loc>https://theneshverse.vercel.app/products/mindframe</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/products/hireframe</loc>
+    <loc>https://theneshverse.vercel.app/products/hireframe</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/labs</loc>
+    <loc>https://theneshverse.vercel.app/labs</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/labs/reviewflow-ai</loc>
+    <loc>https://theneshverse.vercel.app/labs/reviewflow-ai</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/labs/interface-plays</loc>
+    <loc>https://theneshverse.vercel.app/labs/interface-plays</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/labs/craft-automation</loc>
+    <loc>https://theneshverse.vercel.app/labs/craft-automation</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/labs/systems-memo</loc>
+    <loc>https://theneshverse.vercel.app/labs/systems-memo</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/journal</loc>
+    <loc>https://theneshverse.vercel.app/journal</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/journal/learning-by-making</loc>
+    <loc>https://theneshverse.vercel.app/journal/learning-by-making</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/journal/choosing-clarity</loc>
+    <loc>https://theneshverse.vercel.app/journal/choosing-clarity</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/publishing</loc>
+    <loc>https://theneshverse.vercel.app/publishing</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/publishing/ai-mastery-journey</loc>
+    <loc>https://theneshverse.vercel.app/publishing/ai-mastery-journey</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/publishing/ai-mastery-journey/vol-1</loc>
+    <loc>https://theneshverse.vercel.app/publishing/ai-mastery-journey/vol-1</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/publishing/ai-mastery-journey/vol-2</loc>
+    <loc>https://theneshverse.vercel.app/publishing/ai-mastery-journey/vol-2</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/publishing/ai-mastery-journey/vol-3</loc>
+    <loc>https://theneshverse.vercel.app/publishing/ai-mastery-journey/vol-3</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/publishing/ai-mastery-journey/vol-4</loc>
+    <loc>https://theneshverse.vercel.app/publishing/ai-mastery-journey/vol-4</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/about</loc>
+    <loc>https://theneshverse.vercel.app/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/contact</loc>
+    <loc>https://theneshverse.vercel.app/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/now</loc>
+    <loc>https://theneshverse.vercel.app/now</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://theneshverse.com/future</loc>
+    <loc>https://theneshverse.vercel.app/future</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
